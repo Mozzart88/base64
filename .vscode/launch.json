@@ -1,0 +1,24 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+	{
+		"name": "Launch Tests",
+		"type": "cppdbg",
+		"request": "launch",
+		"program": "${workspaceFolder}/sandbox/test",
+		"args": [
+			"-d",
+			"U2FsdGVkX1/11XOP53y+tsimIkxdQb3oQWn/+r71AXc="
+		],
+		"stopAtEntry": true,
+		"cwd": "${workspaceFolder}",
+		"environment": [],
+		"externalConsole": false,
+		"MIMode": "lldb",
+		"preLaunchTask": "Build tests"
+	}
+	]
+}
